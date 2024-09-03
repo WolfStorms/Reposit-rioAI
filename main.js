@@ -33,5 +33,5 @@ const perguntas = [
     function mostraPergunta(){
    perguntaAtual = perguntas[atual];
 
-
+    caixaPergunta.textContent = perguntaAtual.enunciado;
     }
